@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Líneas y Horarios de Transporte</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css" />
+    <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"></script>
+</head>
+<body>
+    <header>
+        <h1>Transportes de Extremadura</h1>
+    </header>
+    <main>
+        <div id="map"></div>
+        <div id="infoContainer"> 
+        <div id="info">
+            <h2 id="toggleLines">
+                <span id="arrowIcon">&#9658;</span>
+                Líneas y Horarios
+                
+            </h2>
+            
+
+            <div id="lines">
+                <!-- Información de líneas y horarios irá aquí -->
+            </div>
+        </div>
+        </div>
+    </main>
+
+    <div id="scheduleModal" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <h2 id="modalTitle"></h2>
+            <div id="modalOperator" style="margin-bottom: 20px;">
+                <p id="destination" style="margin: 0;"></p>
+            </div>
+                     
+            <div class="schedule-section">
+                <button class="toggle-button">Salidas</button>
+                <div class="schedule-content" style="display: block;">
+                    <table class="schedule-table">
+                        <thead>
+                            <tr>
+                                <th>Destino</th> <!-- Cambiar "Destino/Procedencia" a "Destino" -->
+                                <th>Hora</th>
+                                <th>Operador</th>
+                            </tr>
+                        </thead>
+                        <tbody id="departuresTableBody">
+                            <!-- Contenido de la tabla de salidas -->
+                        </tbody>
+                    </table>
+                    
+                </div>
+            </div>
+            <div class="schedule-section">
+                <button class="toggle-button">Llegadas</button>
+                <div class="schedule-content" style="display: block;">
+                    <table class="schedule-table">
+                        <thead>
+                            <tr>
+                                <th>Procedencia</th> <!-- Cambiar "Destino/Procedencia" a "Procedencia" -->
+                                <th>Hora</th>
+                                <th>Operador</th>
+                            </tr>
+                        </thead>
+                        <tbody id="arrivalsTableBody">
+                            <!-- Contenido de la tabla de llegadas -->
+                        </tbody>
+                    </table>
+                    
+                </div>
+            </div>
+        </div>
+    </div>
+    
+
+    <script src="scripts.js"></script>
+</body>
+</html>

@@ -1,0 +1,4 @@
+// Inicializar el mapa de Leaflet
+const map = L.map('map').setView([38.6511, -6.8562], 9); 
+
+{ name: "Estación de trenes de Badajoz", coordinates: [38.89090, -6.98176] },
