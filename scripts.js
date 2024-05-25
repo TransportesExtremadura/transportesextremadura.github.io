@@ -6,14 +6,14 @@ L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
 }).addTo(map);
 
 const busIcon = L.icon({
-    iconUrl: 'marcadores/bus.png',
+    iconUrl: 'bus.png',
     iconSize: [32, 45],
     iconAnchor: [16, 45],
     popupAnchor: [0, -45]
 });
 
 const trainIcon = L.icon({
-    iconUrl: 'marcadores/train.png',
+    iconUrl: 'train.png',
     iconSize: [32, 45],
     iconAnchor: [16, 45],
     popupAnchor: [0, -45]
