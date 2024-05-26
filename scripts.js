@@ -25,7 +25,7 @@ const lines = [
         schedule: "06:00 - 22:00",
         stops: [
             {
-                name: "Estación de autobuses de Badajoz",
+                name: "ESTACIÓN DE AUTOBUSES DE BADAJOZ",
                 coordinates: [38.86668, -6.97475],
                 departures: ["06:00", "07:00", "08:00"],
                 arrivals: ["06:15", "07:15", "08:15"],
@@ -36,7 +36,7 @@ const lines = [
                 arrivalOperators: ["Operador A", "Operador B", "Operador C"]
             },
             {
-                name: "Talavera la Real",
+                name: "TALAVERA LA REAL",
                 coordinates: [38.87990, -6.77253],
                 departures: ["06:30", "07:30", "08:30"],
                 arrivals: ["06:45", "07:45", "08:45"],
@@ -47,18 +47,7 @@ const lines = [
                 arrivalOperators: ["Operador D", "Operador E", "Operador F"]
             },
             {
-                name: "Talavera la Real",
-                coordinates: [38.87990, -6.77253],
-                departures: ["06:30", "07:30", "08:30"],
-                arrivals: ["06:45", "07:45", "08:45"],
-                type: "bus",
-                departureDestinations: ["Ciudad D", "Ciudad E", "Ciudad F"],
-                arrivalDestinations: ["Ciudad G", "Ciudad H", "Ciudad I"],
-                departureOperators: ["Operador 4", "Operador 5", "Operador 6"],
-                arrivalOperators: ["Operador D", "Operador E", "Operador F"]
-            },
-            {
-                name: "Guadajira",
+                name: "GUADAJIRA",
                 coordinates: [38.85253, -6.68242],
                 departures: ["06:30", "07:30", "08:30"],
                 arrivals: ["06:45", "07:45", "08:45"],
@@ -69,7 +58,7 @@ const lines = [
                 arrivalOperators: ["Operador D", "Operador E", "Operador F"]
             },
             {
-                name: "Estación de autobuses de Olivenza",
+                name: "ESTACIÓN DE AUTOBUSES DE OLIVENZA",
                 coordinates: [38.68515, -7.09754],
                 departures: ["06:30", "07:30", "08:30"],
                 arrivals: ["06:45", "07:45", "08:45"],
@@ -80,7 +69,18 @@ const lines = [
                 arrivalOperators: ["Operador D", "Operador E", "Operador F"]
             },
             {
-                name: "Valverde de Leganés",
+                name: "ESTACIÓN DE AUTOBUSES DE ELVAS",
+                coordinates: [38.87488, -7.16075],
+                departures: ["06:00", "07:00", "08:00"],
+                arrivals: ["06:15", "07:15", "08:15"],
+                type: "bus",
+                departureDestinations: ["Ciudad X", "Ciudad Y", "Ciudad Z"],
+                arrivalDestinations: ["Ciudad A", "Ciudad B", "Ciudad C"],
+                departureOperators: ["Operador 1", "Operador 2", "Operador 3"],
+                arrivalOperators: ["Operador A", "Operador B", "Operador C"]
+            },
+            {
+                name: "VALVERDE DE LEGANÉS",
                 coordinates: [38.67013, -6.97909],
                 departures: ["06:30", "07:30", "08:30"],
                 arrivals: ["06:45", "07:45", "08:45"],
@@ -91,7 +91,7 @@ const lines = [
                 arrivalOperators: ["Operador D", "Operador E", "Operador F"]
             },
             {
-                name: "La Albuera",
+                name: "LA ALBUERA",
                 coordinates: [38.71799, -6.82548],
                 departures: ["06:30", "07:30", "08:30"],
                 arrivals: ["06:45", "07:45", "08:45"],
@@ -102,7 +102,7 @@ const lines = [
                 arrivalOperators: ["Operador D", "Operador E", "Operador F"]
             },
             {
-                name: "Almendral",
+                name: "ALMENDRAL",
                 coordinates: [38.61562, -6.81818],
                 departures: ["06:30", "07:30", "08:30"],
                 arrivals: ["06:45", "07:45", "08:45"],
@@ -113,8 +113,129 @@ const lines = [
                 arrivalOperators: ["Operador D", "Operador E", "Operador F"]
             },
             {
-                name: "Torre de Miguel Sesmero",
+                name: "TORRE DE MIGUEL SESMERO",
                 coordinates: [38.61751, -6.79960],
+                departures: ["06:30", "07:30", "08:30"],
+                arrivals: ["06:45", "07:45", "08:45"],
+                type: "bus",
+                departureDestinations: ["Ciudad D", "Ciudad E", "Ciudad F"],
+                arrivalDestinations: ["Ciudad G", "Ciudad H", "Ciudad I"],
+                departureOperators: ["Operador 4", "Operador 5", "Operador 6"],
+                arrivalOperators: ["Operador D", "Operador E", "Operador F"]
+            },
+            {
+                name: "SAN BENITO DE LA CONTIENDA",
+                coordinates: [38.63441, -7.15926],
+                departures: ["06:30", "07:30", "08:30"],
+                arrivals: ["06:45", "07:45", "08:45"],
+                type: "bus",
+                departureDestinations: ["Ciudad D", "Ciudad E", "Ciudad F"],
+                arrivalDestinations: ["Ciudad G", "Ciudad H", "Ciudad I"],
+                departureOperators: ["Operador 4", "Operador 5", "Operador 6"],
+                arrivalOperators: ["Operador D", "Operador E", "Operador F"]
+            },
+            {
+                name: "ESTACIÓN DE AUTOBUSES DE ALCONCHEL",
+                coordinates: [38.51612, -7.06812],
+                departures: ["06:30", "07:30", "08:30"],
+                arrivals: ["06:45", "07:45", "08:45"],
+                type: "bus",
+                departureDestinations: ["Ciudad D", "Ciudad E", "Ciudad F"],
+                arrivalDestinations: ["Ciudad G", "Ciudad H", "Ciudad I"],
+                departureOperators: ["Operador 4", "Operador 5", "Operador 6"],
+                arrivalOperators: ["Operador D", "Operador E", "Operador F"]
+            },
+            {
+                name: "CHELES",
+                coordinates: [38.51114, -7.27950],
+                departures: ["06:30", "07:30", "08:30"],
+                arrivals: ["06:45", "07:45", "08:45"],
+                type: "bus",
+                departureDestinations: ["Ciudad D", "Ciudad E", "Ciudad F"],
+                arrivalDestinations: ["Ciudad G", "Ciudad H", "Ciudad I"],
+                departureOperators: ["Operador 4", "Operador 5", "Operador 6"],
+                arrivalOperators: ["Operador D", "Operador E", "Operador F"]
+            },
+            {
+                name: "VILLANUEVA DEL FRESNO",
+                coordinates: [38.37588, -7.16887],
+                departures: ["06:30", "07:30", "08:30"],
+                arrivals: ["06:45", "07:45", "08:45"],
+                type: "bus",
+                departureDestinations: ["Ciudad D", "Ciudad E", "Ciudad F"],
+                arrivalDestinations: ["Ciudad G", "Ciudad H", "Ciudad I"],
+                departureOperators: ["Operador 4", "Operador 5", "Operador 6"],
+                arrivalOperators: ["Operador D", "Operador E", "Operador F"]
+            },
+            {
+                name: "BARCARROTA",
+                coordinates: [38.51801, -6.85193],
+                departures: ["06:30", "07:30", "08:30"],
+                arrivals: ["06:45", "07:45", "08:45"],
+                type: "bus",
+                departureDestinations: ["Ciudad D", "Ciudad E", "Ciudad F"],
+                arrivalDestinations: ["Ciudad G", "Ciudad H", "Ciudad I"],
+                departureOperators: ["Operador 4", "Operador 5", "Operador 6"],
+                arrivalOperators: ["Operador D", "Operador E", "Operador F"]
+            },
+            {
+                name: "SALVALEÓN",
+                coordinates: [38.51286, -6.78463],
+                departures: ["06:30", "07:30", "08:30"],
+                arrivals: ["06:45", "07:45", "08:45"],
+                type: "bus",
+                departureDestinations: ["Ciudad D", "Ciudad E", "Ciudad F"],
+                arrivalDestinations: ["Ciudad G", "Ciudad H", "Ciudad I"],
+                departureOperators: ["Operador 4", "Operador 5", "Operador 6"],
+                arrivalOperators: ["Operador D", "Operador E", "Operador F"]
+            },
+            {
+                name: "SALVATIERRA DE LOS BARROS",
+                coordinates: [38.49196, -6.68144],
+                departures: ["06:30", "07:30", "08:30"],
+                arrivals: ["06:45", "07:45", "08:45"],
+                type: "bus",
+                departureDestinations: ["Ciudad D", "Ciudad E", "Ciudad F"],
+                arrivalDestinations: ["Ciudad G", "Ciudad H", "Ciudad I"],
+                departureOperators: ["Operador 4", "Operador 5", "Operador 6"],
+                arrivalOperators: ["Operador D", "Operador E", "Operador F"]
+            },
+            {
+                name: "VALLE DE MATAMOROS",
+                coordinates: [38.37975, -6.80873],
+                departures: ["06:30", "07:30", "08:30"],
+                arrivals: ["06:45", "07:45", "08:45"],
+                type: "bus",
+                departureDestinations: ["Ciudad D", "Ciudad E", "Ciudad F"],
+                arrivalDestinations: ["Ciudad G", "Ciudad H", "Ciudad I"],
+                departureOperators: ["Operador 4", "Operador 5", "Operador 6"],
+                arrivalOperators: ["Operador D", "Operador E", "Operador F"]
+            },
+            {
+                name: "VALLE DE MATAMOROS",
+                coordinates: [38.37975, -6.80873],
+                departures: ["06:30", "07:30", "08:30"],
+                arrivals: ["06:45", "07:45", "08:45"],
+                type: "bus",
+                departureDestinations: ["Ciudad D", "Ciudad E", "Ciudad F"],
+                arrivalDestinations: ["Ciudad G", "Ciudad H", "Ciudad I"],
+                departureOperators: ["Operador 4", "Operador 5", "Operador 6"],
+                arrivalOperators: ["Operador D", "Operador E", "Operador F"]
+            },
+            {
+                name: "VALLE DE SANTA ANA",
+                coordinates: [38.36460, -6.78753],
+                departures: ["06:30", "07:30", "08:30"],
+                arrivals: ["06:45", "07:45", "08:45"],
+                type: "bus",
+                departureDestinations: ["Ciudad D", "Ciudad E", "Ciudad F"],
+                arrivalDestinations: ["Ciudad G", "Ciudad H", "Ciudad I"],
+                departureOperators: ["Operador 4", "Operador 5", "Operador 6"],
+                arrivalOperators: ["Operador D", "Operador E", "Operador F"]
+            },
+            {
+                name: "ESTACIÓN DE AUTOBUSES DE JEREZ DE LOS CABALLEROS",
+                coordinates: [38.31996, -6.77918],
                 departures: ["06:30", "07:30", "08:30"],
                 arrivals: ["06:45", "07:45", "08:45"],
                 type: "bus",
@@ -130,29 +251,29 @@ const lines = [
         schedule: "05:30 - 23:00",
         stops: [
             {
-                name: "Estación de tren de Badajoz",
+                name: "ESTACIÓN DE TRENES DE BADAJOZ",
                 coordinates: [38.89090, -6.98176],
                 departures: ["06:50", "07:17", "07:17", "11:56", "14:09","14:20","17:43","17:43","19:33","19:41"],
                 arrivals: ["08:48","12:55", "13:34", "13:34", "16:05","17:26", "19:05", "21:01", "21:01", "21:28"],
                 type: "train",
                 departureDestinations: ["Alcázar de San Juan", "Madrid Chamartín", "Cáceres", "Villanueva De La Serena", "Entroncamento", "Puertollano", "Madrid Chamartin", "Cáceres", "Cabeza del Buey", "Entroncamento"],
                 arrivalDestinations: ["Cabeza del Buey", "Entroncamento", "Madrid Chamartín", "Cáceres", "Puertollano","Entroncamento","Villanueva De La Serena", "Madrid Chamartín", "Cáceres","Alcázar de San Juan"],
-                departureOperators: ["Renfe", "Renfe", "Renfe", "Renfe", "Comboios de Portugal", "Renfe", "Renfe", "Renfe", "Renfe", "Comboios de Portugal"],
-                arrivalOperators: ["Renfe","Comboios de Portugal", "Renfe", "Renfe", "Renfe", "Comboios de Portugal", "Renfe", "Renfe", "Renfe", "Renfe", "Renfe"],
+                departureOperators: ["Renfe (Media Distancia)", "Renfe (Alvia)", "Renfe (MD compartido con Alvia)", "Renfe (Regional)", "Comboios de Portugal (Regional-Internacional)", "Renfe (Regional Exprés)", "Renfe (Alvia)", "Renfe (MD compartido con Alvia)", "Renfe (Regional Exprés)", "Comboios de Portugal (Regional-Internacional)"],
+                arrivalOperators: ["Renfe (Regional Exprés)","Comboios de Portugal (Regional-Internacional)", "Renfe (Alvia)", "Renfe (MD compartido con Alvia)", "Renfe (Regional Exprés)", "Comboios de Portugal (Regional-Internacional)", "Renfe (Regional)", "Renfe (Alvia)", "Renfe (MD compartido con Alvia)", "Renfe (Media Distancia)", "Renfe"],
             },
             {
-                name: "Estación de Elvas",
+                name: "ESTACIÓN DE TRENES DE ELVAS",
                 coordinates: [38.89554, -7.14228],
-                departures: ["05:45", "06:45", "07:45"],
-                arrivals: ["06:00", "07:00", "08:00"],
+                departures: ["PT: 11:40 / ES: 12:40", "PT: 13:25 / ES: 14:25", "PT: 16:12 / ES: 17:12", "PT: 18:57 / ES: 19:57"],
+                arrivals: ["PT: 11:39 / ES: 12:39", "PT: 13:24 / ES: 14:24", "PT: 16:11 / ES: 17:11", "PT: 18:56 / ES: 19:56"],
                 type: "train",
-                departureDestinations: ["Ciudad O", "Ciudad P", "Ciudad Q"],
-                arrivalDestinations: ["Ciudad R", "Ciudad S", "Ciudad T"],
-                departureOperators: ["Operador O", "Operador P", "Operador Q"],
-                arrivalOperators: ["Operador R", "Operador S", "Operador T"]
+                departureDestinations: ["Badajoz", "Entroncamento", "Badajoz", "Entroncamento"],
+                arrivalDestinations: ["Entroncamento", "Badajoz", "Entroncamento", "Badajoz"],
+                departureOperators: ["Comboios de Portugal (Regional-Internacional)", "Comboios de Portugal (Regional-Internacional)", "Comboios de Portugal (Regional-Internacional)","Comboios de Portugal (Regional-Internacional)"],
+                arrivalOperators: ["Comboios de Portugal (Regional-Internacional)", "Comboios de Portugal (Regional-Internacional)", "Comboios de Portugal (Regional-Internacional)","Comboios de Portugal (Regional-Internacional)"],
             },
             {
-                name: "Estación de Guadiana",
+                name: "ESTACIÓN DE TRENES DE GUADIANA",
                 coordinates: [38.92189, -6.69092],
                 departures: ["05:45", "06:45", "07:45"],
                 arrivals: ["06:00", "07:00", "08:00"],
@@ -163,8 +284,19 @@ const lines = [
                 arrivalOperators: ["Operador R", "Operador S", "Operador T"]
             },
             {
-                name: "Apeadero Montijo-El Molino",
+                name: "APEADERO MONTIJO-EL MOLINO",
                 coordinates: [38.91402, -6.61825],
+                departures: ["05:45", "06:45", "07:45"],
+                arrivals: ["06:00", "07:00", "08:00"],
+                type: "train",
+                departureDestinations: ["Ciudad O", "Ciudad P", "Ciudad Q"],
+                arrivalDestinations: ["Ciudad R", "Ciudad S", "Ciudad T"],
+                departureOperators: ["Operador O", "Operador P", "Operador Q"],
+                arrivalOperators: ["Operador R", "Operador S", "Operador T"]
+            },
+            {
+                name: "ESTACIÓN DE TRENES DE MONTIJO",
+                coordinates: [38.91353, -6.59860],
                 departures: ["05:45", "06:45", "07:45"],
                 arrivals: ["06:00", "07:00", "08:00"],
                 type: "train",
@@ -273,20 +405,34 @@ window.addEventListener('keydown', (event) => {
     }
 });
 
-let infoOpen = true;
+let infoOpen = false;
 
 document.getElementById('toggleLines').addEventListener('click', function() {
     const infoContainer = document.getElementById('infoContainer');
     const arrowIcon = document.getElementById('arrowIcon');
 
     if (infoOpen) {
-        infoContainer.style.width = '33.333%';
-        arrowIcon.innerHTML = '&#9654;';
+        infoContainer.style.transform = 'translateX(0)';
+        arrowIcon.innerHTML = '&#9658;';
+        document.getElementById('map').style.width = 'calc(100% - 300px)';
     } else {
-        infoContainer.style.width = 'auto';
-        arrowIcon.innerHTML = '&#9664;';
+        infoContainer.style.transform = 'translateX(100%)';
+        arrowIcon.innerHTML = '&#9668;';
+        document.getElementById('map').style.width = '100%';
     }
     infoOpen = !infoOpen;
 });
 
 displayLines();
+
+// Toggle schedule sections
+document.querySelectorAll('.toggle-button').forEach(button => {
+    button.addEventListener('click', () => {
+        const content = button.nextElementSibling;
+        if (content.style.display === "block") {
+            content.style.display = "none";
+        } else {
+            content.style.display = "block";
+        }
+    });
+});
