@@ -14,19 +14,19 @@
     </header>
     <main>
         <div id="map"></div>
-        <div id="infoContainer"> 
-        <div id="info">
-            <h2 id="toggleLines">
-                <span id="arrowIcon">&#9658;</span>
-                Líneas y Horarios
-                
-            </h2>
-            
-
-            <div id="lines">
-                <!-- Información de líneas y horarios irá aquí -->
+        <div id="infoContainer">
+            <div id="info">
+                <h2 id="toggleLines">
+                    <span id="arrowIcon">&#9654;</span>
+                    Líneas y Horarios
+                </h2>
+                <div id="lines">
+                    <!-- Información de líneas y horarios irá aquí -->
+                </div>
             </div>
         </div>
+        <div id="toggleButtonContainer">
+            <button id="toggleButton">&#9664;</button>
         </div>
     </main>
 
@@ -44,7 +44,7 @@
                     <table class="schedule-table">
                         <thead>
                             <tr>
-                                <th>Destino</th> <!-- Cambiar "Destino/Procedencia" a "Destino" -->
+                                <th>Destino</th>
                                 <th>Hora</th>
                                 <th>Operador</th>
                             </tr>
@@ -62,7 +62,7 @@
                     <table class="schedule-table">
                         <thead>
                             <tr>
-                                <th>Procedencia</th> <!-- Cambiar "Destino/Procedencia" a "Procedencia" -->
+                                <th>Procedencia</th>
                                 <th>Hora</th>
                                 <th>Operador</th>
                             </tr>
@@ -76,7 +76,6 @@
             </div>
         </div>
     </div>
-    
 
     <script src="scripts.js"></script>
 </body>
