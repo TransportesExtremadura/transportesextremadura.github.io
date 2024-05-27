@@ -1,4 +1,3 @@
-// Inicializar el mapa de Leaflet
 const map = L.map('map').setView([38.6511, -6.8562], 9);
 
 L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
@@ -243,6 +242,83 @@ const lines = [
                 arrivalDestinations: ["Ciudad G", "Ciudad H", "Ciudad I"],
                 departureOperators: ["Operador 4", "Operador 5", "Operador 6"],
                 arrivalOperators: ["Operador D", "Operador E", "Operador F"]
+            },
+            {
+                name: "VILLAR DEL REY",
+                coordinates: [39.12999, -6.85030],
+                departures: ["06:30", "07:30", "08:30"],
+                arrivals: ["06:45", "07:45", "08:45"],
+                type: "bus",
+                departureDestinations: ["Ciudad D", "Ciudad E", "Ciudad F"],
+                arrivalDestinations: ["Ciudad G", "Ciudad H", "Ciudad I"],
+                departureOperators: ["Operador 4", "Operador 5", "Operador 6"],
+                arrivalOperators: ["Operador D", "Operador E", "Operador F"]
+            },
+            {
+                name: "ESTACIÓN DE AUTOBUSES DE ALBURQUERQUE",
+                coordinates: [39.22416, -6.99892],
+                departures: ["06:30", "07:30", "08:30"],
+                arrivals: ["06:45", "07:45", "08:45"],
+                type: "bus",
+                departureDestinations: ["Ciudad D", "Ciudad E", "Ciudad F"],
+                arrivalDestinations: ["Ciudad G", "Ciudad H", "Ciudad I"],
+                departureOperators: ["Operador 4", "Operador 5", "Operador 6"],
+                arrivalOperators: ["Operador D", "Operador E", "Operador F"]
+            },
+            {
+                name: "GÉVORA",
+                coordinates: [38.91940, -6.94382],
+                departures: ["06:30", "07:30", "08:30"],
+                arrivals: ["06:45", "07:45", "08:45"],
+                type: "bus",
+                departureDestinations: ["Ciudad D", "Ciudad E", "Ciudad F"],
+                arrivalDestinations: ["Ciudad G", "Ciudad H", "Ciudad I"],
+                departureOperators: ["Operador 4", "Operador 5", "Operador 6"],
+                arrivalOperators: ["Operador D", "Operador E", "Operador F"]
+            },
+            {
+                name: "CUARTEL DE MENACHO BÓTOA",
+                coordinates: [39.02451, -6.90319],
+                departures: ["06:30", "07:30", "08:30"],
+                arrivals: ["06:45", "07:45", "08:45"],
+                type: "bus",
+                departureDestinations: ["Ciudad D", "Ciudad E", "Ciudad F"],
+                arrivalDestinations: ["Ciudad G", "Ciudad H", "Ciudad I"],
+                departureOperators: ["Operador 4", "Operador 5", "Operador 6"],
+                arrivalOperators: ["Operador D", "Operador E", "Operador F"]
+            },
+            {
+                name: "VALDEBÓTOA",
+                coordinates: [38.96778, -6.92484],
+                departures: ["06:30", "07:30", "08:30"],
+                arrivals: ["06:45", "07:45", "08:45"],
+                type: "bus",
+                departureDestinations: ["Ciudad D", "Ciudad E", "Ciudad F"],
+                arrivalDestinations: ["Ciudad G", "Ciudad H", "Ciudad I"],
+                departureOperators: ["Operador 4", "Operador 5", "Operador 6"],
+                arrivalOperators: ["Operador D", "Operador E", "Operador F"]
+            },
+            {
+                name: "SAN VICENTE DE ALCÁNTARA",
+                coordinates: [39.36229, -7.13810],
+                departures: ["06:30", "07:30", "08:30"],
+                arrivals: ["06:45", "07:45", "08:45"],
+                type: "bus",
+                departureDestinations: ["Ciudad D", "Ciudad E", "Ciudad F"],
+                arrivalDestinations: ["Ciudad G", "Ciudad H", "Ciudad I"],
+                departureOperators: ["Operador 4", "Operador 5", "Operador 6"],
+                arrivalOperators: ["Operador D", "Operador E", "Operador F"]
+            },
+            {
+                name: "LA CODOSERA",
+                coordinates: [39.20815, -7.17134],
+                departures: ["06:30", "07:30", "08:30"],
+                arrivals: ["06:45", "07:45", "08:45"],
+                type: "bus",
+                departureDestinations: ["Ciudad D", "Ciudad E", "Ciudad F"],
+                arrivalDestinations: ["Ciudad G", "Ciudad H", "Ciudad I"],
+                departureOperators: ["Operador 4", "Operador 5", "Operador 6"],
+                arrivalOperators: ["Operador D", "Operador E", "Operador F"]
             }
         ]
     },
@@ -304,8 +380,95 @@ const lines = [
                 arrivalDestinations: ["Ciudad R", "Ciudad S", "Ciudad T"],
                 departureOperators: ["Operador O", "Operador P", "Operador Q"],
                 arrivalOperators: ["Operador R", "Operador S", "Operador T"]
+            },
+            {
+                name: "APEADERO GARROVILLA-LAS VEGAS",
+                coordinates: [38.91540, -6.47725],
+                departures: ["05:45", "06:45", "07:45"],
+                arrivals: ["06:00", "07:00", "08:00"],
+                type: "train",
+                departureDestinations: ["Ciudad O", "Ciudad P", "Ciudad Q"],
+                arrivalDestinations: ["Ciudad R", "Ciudad S", "Ciudad T"],
+                departureOperators: ["Operador O", "Operador P", "Operador Q"],
+                arrivalOperators: ["Operador R", "Operador S", "Operador T"]
+            },
+            {
+                name: "ESTACIÓN DE TRENES DE MÉRIDA",
+                coordinates: [38.92153, -6.34287],
+                departures: ["05:45", "06:45", "07:45"],
+                arrivals: ["06:00", "07:00", "08:00"],
+                type: "train",
+                departureDestinations: ["Ciudad O", "Ciudad P", "Ciudad Q"],
+                arrivalDestinations: ["Ciudad R", "Ciudad S", "Ciudad T"],
+                departureOperators: ["Operador O", "Operador P", "Operador Q"],
+                arrivalOperators: ["Operador R", "Operador S", "Operador T"]
+            },
+            {
+                name: "ESTACIÓN DE TRENES DE CALAMONTE",
+                coordinates: [38.92153, -6.34287],
+                departures: ["05:45", "06:45", "07:45"],
+                arrivals: ["06:00", "07:00", "08:00"],
+                type: "train",
+                departureDestinations: ["Ciudad O", "Ciudad P", "Ciudad Q"],
+                arrivalDestinations: ["Ciudad R", "Ciudad S", "Ciudad T"],
+                departureOperators: ["Operador O", "Operador P", "Operador Q"],
+                arrivalOperators: ["Operador R", "Operador S", "Operador T"]
+            },
+            {
+                name: "ESTACIÓN DE TRENES DE ALMENDRALEJO",
+                coordinates: [38.68468, -6.39953],
+                departures: ["05:45", "06:45", "07:45"],
+                arrivals: ["06:00", "07:00", "08:00"],
+                type: "train",
+                departureDestinations: ["Ciudad O", "Ciudad P", "Ciudad Q"],
+                arrivalDestinations: ["Ciudad R", "Ciudad S", "Ciudad T"],
+                departureOperators: ["Operador O", "Operador P", "Operador Q"],
+                arrivalOperators: ["Operador R", "Operador S", "Operador T"]
+            },
+            {
+                name: "ESTACIÓN DE TRENES DE VILLAFRANCA DE LOS BARROS",
+                coordinates: [38.5644, -6.3522],
+                departures: ["05:45", "06:45", "07:45"],
+                arrivals: ["06:00", "07:00", "08:00"],
+                type: "train",
+                departureDestinations: ["Ciudad O", "Ciudad P", "Ciudad Q"],
+                arrivalDestinations: ["Ciudad R", "Ciudad S", "Ciudad T"],
+                departureOperators: ["Operador O", "Operador P", "Operador Q"],
+                arrivalOperators: ["Operador R", "Operador S", "Operador T"]
+            },
+            {
+                name: "ESTACIÓN DE TRENES DE LOS SANTOS DE MAIMONA",
+                coordinates: [38.44971, -6.36150],
+                departures: ["05:45", "06:45", "07:45"],
+                arrivals: ["06:00", "07:00", "08:00"],
+                type: "train",
+                departureDestinations: ["Ciudad O", "Ciudad P", "Ciudad Q"],
+                arrivalDestinations: ["Ciudad R", "Ciudad S", "Ciudad T"],
+                departureOperators: ["Operador O", "Operador P", "Operador Q"],
+                arrivalOperators: ["Operador R", "Operador S", "Operador T"]
+            },
+            {
+                name: "APEADERO ZAFRA FERIA",
+                coordinates: [38.42445, -6.40976],
+                departures: ["05:45", "06:45", "07:45"],
+                arrivals: ["06:00", "07:00", "08:00"],
+                type: "train",
+                departureDestinations: ["Ciudad O", "Ciudad P", "Ciudad Q"],
+                arrivalDestinations: ["Ciudad R", "Ciudad S", "Ciudad T"],
+                departureOperators: ["Operador O", "Operador P", "Operador Q"],
+                arrivalOperators: ["Operador R", "Operador S", "Operador T"]
+            },
+            {
+                name: "ESTACIÓN DE TRENES DE ZAFRA",
+                coordinates: [38.4140, -6.4051],
+                departures: ["05:45", "06:45", "07:45"],
+                arrivals: ["06:00", "07:00", "08:00"],
+                type: "train",
+                departureDestinations: ["Ciudad O", "Ciudad P", "Ciudad Q"],
+                arrivalDestinations: ["Ciudad R", "Ciudad S", "Ciudad T"],
+                departureOperators: ["Operador O", "Operador P", "Operador Q"],
+                arrivalOperators: ["Operador R", "Operador S", "Operador T"]
             }
-            
         ]
     }
 ];
@@ -348,7 +511,7 @@ function displayLines() {
             const icon = stop.type === "bus" ? busIcon : trainIcon;
             L.marker(stop.coordinates, { icon: icon })
                 .addTo(map)
-                .on('click', () => openModal(stop.name, stop.departures, stop.arrivals, stop.departureDestinations, stop.arrivalDestinations, stop.departureOperators, stop.arrivalOperators));
+                .on('click', () => openModal(stop));
         });
         lineDiv.appendChild(stopsList);
 
@@ -356,28 +519,28 @@ function displayLines() {
     });
 }
 
-function openModal(name, departures, arrivals, departureDestinations, arrivalDestinations, departureOperators, arrivalOperators) {
+function openModal(stop) {
     const modal = document.getElementById('scheduleModal');
     const modalTitle = document.getElementById('modalTitle');
     const departuresTableBody = document.getElementById('departuresTableBody');
     const arrivalsTableBody = document.getElementById('arrivalsTableBody');
 
-    modalTitle.textContent = name;
+    modalTitle.textContent = stop.name;
     departuresTableBody.innerHTML = "";
     arrivalsTableBody.innerHTML = "";
 
     // Crear filas para las salidas
-    departures.forEach((departure, index) => {
-        const destination = departureDestinations[index];
-        const operator = departureOperators[index];
+    stop.departures.forEach((departure, index) => {
+        const destination = stop.departureDestinations[index];
+        const operator = stop.departureOperators[index];
         const row = createTableRow(destination, departure, operator);
         departuresTableBody.appendChild(row);
     });
 
     // Crear filas para las llegadas
-    arrivals.forEach((arrival, index) => {
-        const destination = arrivalDestinations[index];
-        const operator = arrivalOperators[index];
+    stop.arrivals.forEach((arrival, index) => {
+        const destination = stop.arrivalDestinations[index];
+        const operator = stop.arrivalOperators[index];
         const row = createTableRow(destination, arrival, operator);
         arrivalsTableBody.appendChild(row);
     });
@@ -394,7 +557,7 @@ document.querySelector('.close').addEventListener('click', closeModal);
 
 window.addEventListener('click', (event) => {
     const modal = document.getElementById('scheduleModal');
-    if (event.target == modal) {
+    if (event.target === modal) {
         closeModal();
     }
 });
