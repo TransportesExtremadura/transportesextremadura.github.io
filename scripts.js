@@ -405,7 +405,7 @@ const lines = [
             },
             {
                 name: "ESTACIÓN DE TRENES DE CALAMONTE",
-                coordinates: [38.92153, -6.34287],
+                coordinates: [38.8869, -6.3829],
                 departures: ["05:45", "06:45", "07:45"],
                 arrivals: ["06:00", "07:00", "08:00"],
                 type: "train",
